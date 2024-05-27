@@ -1,0 +1,19 @@
+  ex01
+public static void somaVetores() {
+        int[] vetor01 = new int[]{1, 2, 3, 4, 5};
+        int[] vetor02 = new int[]{1, 1, 1, 1, 1};
+        int[] vetorR = new int[5];
+
+        for (int i = 0; i < vetorR.length; i++) {
+            int[] vetor1 = null;
+            int[] vetor2 = null;
+            vetorR[i] = vetor1[i] + vetor2[i];
+            System.out.println(vetorR[i]);
+        }
+    }
+
+    public static void main(String[] args) {
+        somaVetores();
+
+    }
+}
